@@ -1,11 +1,12 @@
 # Required packages
 PRODUCT_PACKAGES += \
-		MatLog \
+    MatLog \
     OmniRecord \
     OmniStyle \
     PixelLiveWallpaperPrebuilt \
     ThemePicker \
-    AOSiPOverlayStub
+    AOSiPOverlayStub \
+    TouchGestures
 
 ifeq ($(DERP_BUILD_ZIP_TYPE), VANILLA)
 PRODUCT_PACKAGES += \
